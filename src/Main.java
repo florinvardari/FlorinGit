@@ -16,6 +16,8 @@ public class Main {
         int temperature= scan.nextInt();
         if (temperature>85){
             System.out.println("I am going to the beach");
+        }else {
+            System.out.println("I am going to the park");
         }
 
     }
