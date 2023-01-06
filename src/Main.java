@@ -11,6 +11,12 @@ public class Main {
         }else {
             System.out.println("I stay home and practice Java");
         }
+        if (isSunny)
+        System.out.println("What is the temperature outside?");
+        int temperature= scan.nextInt();
+        if (temperature>85){
+            System.out.println("I am going to the beach");
+        }
 
     }
 }
